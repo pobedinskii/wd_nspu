@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://xn--80alddbyfjh5a0cyd.xn--p1ai/upload/medialibrary/983/9835db9d6de9da2b8fe43c2d34e54b2f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    opacity: 0.75;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+    gap: 16px;
+}
+
+.card {
+    background-color: #F7F3E399;
+    padding: 8px;
+    border: 1px solid #A8763E;
+    border-radius: 16px;
+    box-shadow: 0px 5px 5px -5px #416165;
+    transition: 1s;
+}
+
+.card:hover {
+    background-color: #249dc599;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.card__content {
+    font-size: 14px;
+    margin: 0;
+}
