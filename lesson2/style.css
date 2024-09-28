@@ -116,7 +116,9 @@ p {
 .main-title {
     text-align: center;
     padding: 16px;
-    background-color: #F0B7B3;
+    background: url("https://ybis.ru/wp-content/uploads/2023/09/fon-dlia-avatarki-5.webp");
+    background-size: cover;
+    color: #F7F9F9;
 }
 
 address {
