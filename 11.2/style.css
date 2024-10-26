@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+/* сброс стилей браузера */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1.2;
+}
+
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+
+/* конец кода сброса стилей браузера */
+
+body {
+	width: 760px;
+	margin: 0 auto;
+	background-color: #F9F7F3;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-weight: normal;
+	border-bottom: dotted 2px rgba(255, 255, 255, .5);
+	padding-bottom: 4px;
+	margin: 25px 0;
+	margin-left: 220px;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+.subform {
+	font-size: 1.2em;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.subform .label {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 16px;
+	line-height: 32px;
+}
+
+.subform input[type="submit"] {
+	margin-left: 220px;
+	padding: 8px 16px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 2px solid #6E2594;
+	background: #fff;
+	color: #6E2594;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.subform input[type="submit"]:hover {
+	background: #6E2594;
+	color: #fff;
+}
+
+.subform input[type="radio"] {
+	accent-color: #6E2594;
+}
+
+.subform input[type="text"],
+.subform textarea,
+.subform select {
+	border: 1px solid #6E259466;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px;
+	transition: .3s;
+	background-color: #6d259413;
+}
+
+.subform input[type="text"]:focus,
+.subform textarea:focus,
+.subform select:focus {
+	border-color: #6E2594;
+	box-shadow: 0 0 4px 0 #6E2594;
+	background-color: white;
+}
