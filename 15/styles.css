@@ -232,7 +232,7 @@ img.right {
 	header {
 		padding-bottom: 8px;
 		position: sticky;
-		top: 0;
+		top: -112px;
 	}
 
 	nav {
@@ -241,14 +241,16 @@ img.right {
 
 	nav li {
 		float: none;
-		display: inline-block;
+		display: block;
+		border: 1px solid rgb(93,43,78);
 	}
 
 	nav a {
 		float: none;
-		display: inline-block;
+		display: block;
 		border: none;
 		padding: 4px 8px;
+		font-size: 10px;
 	}
 
 	img {
